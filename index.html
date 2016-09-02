@@ -29,28 +29,31 @@
 
 <p>The Arteria project provides components to automate analysis and data-management tasks at a next-generation sequencing center. It leverages a micro-service based architecture together with <a href="http://stackstorm.com/">StackStorm</a> to create an event-driven automation system, which is both flexible and scalable.</p>
 
-<p>Arteria has three main components:</p>
+<p>Arteria has two main components:</p>
 
 <h5>
 <a id="single-responsibility-micro-services" class="anchor" href="#single-responsibility-micro-services" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Single responsibility micro-services</h5>
 
-<p>These provide different functionality, such as running the Illumina <code>bcl2fastq</code> program, check if a runfolder is ready to be analyzed, or removes data once certain criterias are met. The separation to responsiblities between services means that you can pick and chose which ones suite your particular workflow and infrastructure configuration. Examples can be found here:</p>
+<p>These provide different functionality, such as running the Illumina <code>bcl2fastq</code> program, check if a runfolder is ready to be analyzed, or removes data once certain criteria are met. The separation to responsibilities between services means that you can pick and chose which ones suite your particular workflow and infrastructure configuration.</p>
 
-<ul>
-<li><a href="https://github.com/arteria-project/arteria-runfolder">https://github.com/arteria-project/arteria-runfolder</a></li>
-<li><a href="https://github.com/arteria-project/arteria-bcl2fastq">https://github.com/arteria-project/arteria-bcl2fastq</a></li>
-<li><a href="https://github.com/arteria-project/arteria-siswrap">https://github.com/arteria-project/arteria-siswrap</a></li>
-</ul>
+<p>The catalog currently includes:</p>
+
+<p><a href="https://github.com/arteria-project/arteria-runfolder">arteria-runfolder</a><br>
+Manages the state of an illumina runfolder by monitoring the status files output by the instrument. I also allows for state to be changed via the REST interface.</p>
+
+<p><a href="https://github.com/arteria-project/arteria-bcl2fastq">arteria-bcl2fastq</a><br>
+Provides a REST interface for Illuminas <code>bcl2fastq</code> software. Includes a simple scheduler to efficiently be able to handle running of multiple bcl2fastq instances on a single server.</p>
+
+<p><a href="https://github.com/arteria-project/arteria-siswrap">arteria-siswrap</a><br>
+Wraps Sisyphus - the quality control and reporting software used by the SNP&amp;SEQ Technology platform.</p>
+
+<p><a href="https://github.com/arteria-project/arteria-checksum">arteria-checksum</a><br>
+Runs md5sum checking and lets you know whether all files have preserved their integrity.</p>
 
 <h5>
 <a id="stackstorm-packs" class="anchor" href="#stackstorm-packs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>StackStorm packs</h5>
 
 <p>StackStorms concept of packs means that it's easy to redistribute automation components, and stitch these toghether into workflows. The Arteria packs can be found here: <a href="https://github.com/arteria-project/arteria-packs">https://github.com/arteria-project/arteria-packs</a></p>
-
-<h5>
-<a id="provisioning-scripts" class="anchor" href="#provisioning-scripts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Provisioning scripts</h5>
-
-<p>We provide example Ansible scripts which show how Arteria can be deployed. The provisioning material as well as sample Vagrant files can be found here: <a href="https://github.com/arteria-project/arteria-provisioning">https://github.com/arteria-project/arteria-provisioning</a></p>
 
 <h2>
 <a id="who-can-use-it" class="anchor" href="#who-can-use-it" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Who can use it?</h2>
