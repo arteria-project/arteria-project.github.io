@@ -1,7 +1,7 @@
 The Arteria Project
 ===================
 
-[![Join the chat at https://gitter.im/arteria-project/arteria-project](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/arteria-project/arteria-project](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/arteria-project/arteria-project)
 
 ## Why?
 Handling sequencing data from massive parallel sequencing can be a daunting task! And while the process of handling sequencing data will share many of its characteristics across centers, the current norm is one center one solution. This creates a situation where reuse is difficult to achieve and the wheel is invented over and over again. This is a situation that we hope can be remedied in the form of the Arteria project.
