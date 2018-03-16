@@ -29,7 +29,7 @@ Provides a REST interface for Illuminas `bcl2fastq` software. Includes a simple 
 Runs md5sum checking and lets you know whether all files have preserved their integrity.
 
 ## Who can use it?
-You can! We've open sourced the Arteria project under a [MIT licence](http://choosealicense.com/licenses/mit/), and we hope that more organizations and individuals will join us in developing Arteria in the future.
+You can! We've open sourced the Arteria project under a [MIT licence](https://choosealicense.com/licenses/mit/), and we hope that more organizations and individuals will join us in developing Arteria in the future.
 
 ## Publications, Presentations, Blog posts, etc
 
@@ -51,7 +51,7 @@ Arteria has been presented at Scientific conferences:
  - [Beyond Cron and Bash](https://docs.google.com/presentation/d/1qe_b9EwUuKw0HDgT-4l_2J_Vj5ROelcoUIdQCsOlnkQ/edit?usp=sharing) - presentation at the [Conference of Software Research Engineering in Manchester 2016](https://ukrse.github.io/conf2016)
 
 ## Who are we?
-The Arteria project originated in the [SNP&SEQ Technology Platform](http://molmed.medsci.uu.se/SNP+SEQ+Technology+Platform/?languageId=1) node of the [National Genomics Infrastructure](https://portal.scilifelab.se/genomics/) at [SciLifeLab](http://www.scilifelab.se/). It has since been adopted at the [Clinical Genomics Uppsala at SciLifeLab](https://www.scilifelab.se/facilities/clinical-genomics-uppsala/), and the [University of Melbourne Centre for Cancer Research](http://mdhs.unimelb.edu.au/our-organisation/institutes-centres-departments/the-university-of-melbourne-centre-for-cancer-research)
+The Arteria project originated in the [SNP&SEQ Technology Platform](https://snpseq.medsci.uu.se/) node of the [National Genomics Infrastructure](https://portal.scilifelab.se/genomics/) at [SciLifeLab](http://www.scilifelab.se/). It has since been adopted at the [Clinical Genomics Uppsala at SciLifeLab](https://www.scilifelab.se/facilities/clinical-genomics-uppsala/), and the [University of Melbourne Centre for Cancer Research](https://mdhs.unimelb.edu.au/our-organisation/institutes-centres-departments/the-university-of-melbourne-centre-for-cancer-research)
 
 ![](https://ngisweden.scilifelab.se/site/ngisweden_logo.png)
-![](http://www.scilifelab.se/wp-content/uploads/2013/09/82047_logo-green.jpg)
+![](https://www.scilifelab.se/wp-content/uploads/2013/09/82047_logo-green.jpg)
