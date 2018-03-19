@@ -15,21 +15,21 @@ Arteria has two main components:
 StackStorms concept of packs means that it's easy to redistribute automation components, and stitch these toghether into workflows. The Arteria packs can be found here: [https://github.com/arteria-project/arteria-packs](https://github.com/arteria-project/arteria-packs). This provides an excellent starting point for building your own Arteria system.
 
 ##### Single responsibility micro-services
-These provide different functionality, such as running the Illumina `bcl2fastq` program, check if a runfolder is ready to be analyzed, or removes data once certain criteria are met. The separation to responsibilities between services means that you can pick and chose which ones suite your particular workflow and infrastructure configuration.
+These provide different functionality, such as running the Illumina `bcl2fastq` program, check if a runfolder is ready to be analyzed, or removes data once certain criteria are met. The separation of responsibilities between services means that you can pick and chose which ones suite your particular workflow and infrastructure configuration.
 
 The catalog of services of general interest currently includes:
 
 [arteria-runfolder](https://github.com/arteria-project/arteria-runfolder)  
-Manages the state of an illumina runfolder by monitoring the status files output by the instrument. I also allows for state to be changed via the REST interface.
+Manages the state of an illumina runfolder by monitoring the status files output by the instrument. It also allows for state to be changed via the REST interface.
 
 [arteria-bcl2fastq](https://github.com/arteria-project/arteria-bcl2fastq)   
-Provides a REST interface for Illuminas `bcl2fastq` software. Includes a simple scheduler to efficiently be able to handle running of multiple bcl2fastq instances on a single server.
+Provides a REST interface for Illumina's `bcl2fastq` software. Includes a simple scheduler to efficiently be able to handle run multiple bcl2fastq instances on a single server.
  
 [arteria-checksum](https://github.com/arteria-project/arteria-checksum)    
 Runs md5sum checking and lets you know whether all files have preserved their integrity.
 
 ## Who can use it?
-You can! We've open sourced the Arteria project under a [MIT licence](https://choosealicense.com/licenses/mit/), and we hope that more organizations and individuals will join us in developing Arteria in the future.
+You can! We've open sourced the Arteria project under the [MIT licence](https://choosealicense.com/licenses/mit/), and we hope that more organizations and individuals will join us in developing Arteria in the future.
 
 ## Publications, Presentations, Blog posts, etc
 
@@ -40,7 +40,7 @@ We have a pre-print out describing Arteria which can be found here. [https://www
  - [Event driven automation for DNA sequencing centers with StackStorm and Arteria at UMCCR](https://blogs.nopcode.org/brainstorm/2018-03-12-umccr-arteria/)
  - [Productionalising cancer reporting](https://blogs.nopcode.org/brainstorm/2018-03-13-umccr-pcgr/)
 
-We were have been featured by StackStorm:
+We have been featured by StackStorm:
 
  - [Genomics Sequencing, StackStorm, and Reading the Source Code of Biology](https://stackstorm.com/2016/11/15/genomics-sequencing-stackstorm-reading-source-code-biology/)
  - [Case study of SciLifeLab](https://stackstorm.com/case-study-scilifelab/)
