@@ -12,10 +12,10 @@ The Arteria project provides components to automate analysis and data-management
 Arteria has two main components:
  
 ##### StackStorm packs
-StackStorms concept of packs means that it's easy to redistribute automation components, and stitch these toghether into workflows. The Arteria packs can be found here: [https://github.com/arteria-project/arteria-packs](https://github.com/arteria-project/arteria-packs). This provides an excellent starting point for building your own Arteria system.
+StackStorm's concept of packs means that it's easy to redistribute automation components, and stitch these toghether into workflows. The Arteria packs can be found here: [https://github.com/arteria-project/arteria-packs](https://github.com/arteria-project/arteria-packs). This provides an excellent starting point for building your own Arteria system.
 
 ##### Single responsibility micro-services
-These provide different functionality, such as running the Illumina `bcl2fastq` program, check if a runfolder is ready to be analyzed, or removes data once certain criteria are met. The separation of responsibilities between services means that you can pick and chose which ones suite your particular workflow and infrastructure configuration.
+These provide different functionality, such as running the Illumina `bcl2fastq` program, check if a runfolder is ready to be analyzed, or remove data once certain criteria are met. The separation of responsibilities between services means that you can pick and chose which ones suite your particular workflow and infrastructure configuration.
 
 The catalog of services of general interest currently includes:
 
