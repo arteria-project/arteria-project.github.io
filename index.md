@@ -23,7 +23,7 @@ The catalog of services of general interest currently includes:
 Manages the state of an illumina runfolder by monitoring the status files output by the instrument. It also allows for state to be changed via the REST interface.
 
 [arteria-bcl2fastq](https://github.com/arteria-project/arteria-bcl2fastq)   
-Provides a REST interface for Illumina's `bcl2fastq` software. Includes a simple scheduler to efficiently be able to handle run multiple bcl2fastq instances on a single server.
+Provides a REST interface for Illumina's `bcl2fastq` software. It includes a simple scheduler to efficiently manage multiple bcl2fastq instances on a single server. 
  
 [arteria-checksum](https://github.com/arteria-project/arteria-checksum)    
 Runs md5sum checking and lets you know whether all files have preserved their integrity.
