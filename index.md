@@ -33,7 +33,7 @@ You can! We've open sourced the Arteria project under the [MIT licence](https://
 
 ## Publications, Presentations, Blog posts, etc
 
-We have a pre-print out describing Arteria which can be found here. [https://www.biorxiv.org/content/early/2017/11/06/214858](https://www.biorxiv.org/content/early/2017/11/06/214858)
+We have a paper out describing Arteria which can be found here. [https://academic.oup.com/gigascience/article/8/12/giz135/5673459](https://academic.oup.com/gigascience/article/8/12/giz135/5673459)
 
 [Roman Valls](https://twitter.com/braincode) has written two excellent blog posts related to Arteria which can be found here:
 
